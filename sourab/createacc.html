@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CREATE NEW ACCOUNT</title>
+    <style>
+        body{
+            background: linear-gradient(to left, rgb(210, 168, 168),black);
+        }
+        button{
+            padding: 5px;
+            font-weight: 700;
+            background: cyan;
+            cursor: pointer;
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+            padding: 7%;
+            border-radius: 10%;
+            box-shadow: 5px 10px;
+            background: linear-gradient(to left, rgba(217, 188, 188, 0.753), rgb(205, 197, 197));
+        }
+        .container{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 5rem;
+        }
+        .log{
+            text-decoration: none;
+            background-color: cyan;
+            width: 25%;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <form action="">
+            <h2>CREATE A NEW ACCOUNT</h2>
+            <label for="name">User Name <input type="text"> </label> <br>
+            <label for="email">Email <input type="email">   </label> <br>
+            <label for="password"> Password <input type="password"></label> <br>
+            <label for="confirmpass">Confirm Password <input type="password"></label> <br>
+            <label for="phonenumber">Phone Number <input type="number"></label> <br>
+            <a href="#"> <input type="checkbox"> Agree to Terms and condition   </a> <br>
+            <a href="#" class="log">SIGN UP</a> <br>
+            <a href="login.html" class="log">LOG IN</a>
+        </form>
+    </div>
+</body>
+</html>
